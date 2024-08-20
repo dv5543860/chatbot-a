@@ -1,0 +1,62 @@
+version: "3.1"
+
+stories:
+- story: General Inquiry Path
+  steps:
+  - intent: General_Inquiry
+  - action: utter_General_Inquiry
+
+- story: SEO Services Path
+  steps:
+  - intent: SEO_Services
+  - action: utter_SEO_Services
+
+- story: Content Marketing Services Path
+  steps:
+  - intent: Content_Marketing_Services
+  - action: utter_Content_Marketing_Services
+
+- story: PPC Services Path
+  steps:
+  - intent: PPC_Services
+  - action: utter_PPC_Services
+
+- story: Social Media Management Path
+  steps:
+  - intent: Social_Media_Management
+  - action: utter_Social_Media_Management
+
+- story: Pricing Inquiry Path
+  steps:
+  - intent: Pricing_Inquiry
+  - action: utter_Pricing_Inquiry
+
+- story: Timeline Inquiry Path
+  steps:
+  - intent: Timeline_Inquiry
+  - action: utter_Timeline_Inquiry
+
+- story: Support Inquiry Path
+  steps:
+  - intent: Support_Inquiry
+  - action: utter_Support_Inquiry
+
+- story: Service Escalation Path
+  steps:
+  - intent: Service_Escalation
+  - action: utter_Service_Escalation
+
+- story: Custom Request Path
+  steps:
+  - intent: Custom_Request
+  - action: utter_Custom_Request
+
+- story: General Farewell Path
+  steps:
+  - intent: General_Farewell
+  - action: utter_General_Farewell
+
+- story: Fallback Path
+  steps:
+  - intent: Default_Fallback_Intent
+  - action: utter_Default_Fallback_Intent

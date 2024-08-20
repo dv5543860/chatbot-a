@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+- intent: General_Inquiry
+  examples: |
+    - Tell me about your company.
+    - What services do you offer?
+    - Can you help with digital marketing?
+    - What does your company do?
+    - What can you do for me?
+
+- intent: SEO_Services
+  examples: |
+    - What is SEO?
+    - Do you provide SEO services?
+    - How can you help with search engine optimization?
+    - Can you improve my website's ranking?
+    - What are your SEO strategies?
+
+- intent: Content_Marketing_Services
+  examples: |
+    - What is content marketing?
+    - Do you offer content marketing services?
+    - How can content marketing help my business?
+    - Can you create content for my website?
+    - What type of content do you create?
+
+- intent: PPC_Services
+  examples: |
+    - What is PPC?
+    - Do you manage PPC campaigns?
+    - Can you help with Google Ads?
+    - How much do PPC services cost?
+    - Can you optimize my PPC campaigns?
+
+- intent: Social_Media_Management
+  examples: |
+    - Do you manage social media accounts?
+    - What social media services do you offer?
+    - Can you help me with my social media strategy?
+    - Do you provide social media marketing?
+    - What platforms do you manage?
+
+- intent: Pricing_Inquiry
+  examples: |
+    - What are your rates?
+    - How much do your services cost?
+    - Can you give me a price quote?
+    - Do you have pricing plans?
+    - Can you provide a detailed pricing list?
+
+- intent: Timeline_Inquiry
+  examples: |
+    - How long does it take to see results?
+    - What is the timeline for your services?
+    - How quickly can you start working on my project?
+    - How long will it take to complete my campaign?
+    - When can I expect to see improvements?
+
+- intent: Support_Inquiry
+  examples: |
+    - I need help with my account.
+    - How can I get support?
+    - I'm having an issue with your services.
+    - Can I talk to a support agent?
+    - How do I contact customer support?
+
+- intent: Service_Escalation
+  examples: |
+    - I want to talk to a human agent.
+    - Can I speak with a representative?
+    - I need more detailed help.
+    - This is not what I was looking for.
+    - Can I escalate this issue?
+
+- intent: Custom_Request
+  examples: |
+    - Can I get a customized service?
+    - I have a specific request.
+    - Can you create a custom marketing plan for my business?
+    - I need something tailored to my needs.
+    - Can you provide a custom solution?
+
+- intent: General_Farewell
+  examples: |
+    - Thank you.
+    - Goodbye.
+    - Talk to you later.
+    - Bye for now.
+    - See you later!
+
+- intent: Default_Fallback_Intent
+  examples: |
+    - (no examples needed; this is handled in the domain and config files)

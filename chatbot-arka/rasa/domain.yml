@@ -1,0 +1,66 @@
+version: "3.1"
+
+intents:
+  - General_Inquiry
+  - SEO_Services
+  - Content_Marketing_Services
+  - PPC_Services
+  - Social_Media_Management
+  - Pricing_Inquiry
+  - Timeline_Inquiry
+  - Support_Inquiry
+  - Service_Escalation
+  - Custom_Request
+  - General_Farewell
+  - Default_Fallback_Intent
+
+responses:
+  utter_General_Inquiry:
+    - text: "Hey! Welcome to Arka Consultancy and Co. We are a digital marketing company specializing in services like SEO, content marketing, PPC, social media management, and more. How can I assist you today?"
+
+  utter_SEO_Services:
+    - text: "Yes, we offer SEO services to help improve your website's visibility on search engines. Our SEO experts use the latest strategies to boost your search rankings. Would you like more details on our SEO packages?"
+
+  utter_Content_Marketing_Services:
+    - text: "We provide content marketing services that include content creation, strategy development, and distribution. Our team can help you engage your audience and drive traffic to your website. Would you like to learn more?"
+
+  utter_PPC_Services:
+    - text: "Yes, we offer PPC management services, including Google Ads and other pay-per-click platforms. Our team can optimize your campaigns to get the best ROI. Would you like to discuss pricing or get a quote?"
+
+  utter_Social_Media_Management:
+    - text: "We offer comprehensive social media management services, including content creation, scheduling, and strategy development across platforms like Facebook, Instagram, Twitter, and LinkedIn. How can we assist you with your social media needs?"
+
+  utter_Pricing_Inquiry:
+    - text: "Our pricing varies depending on the services you need. We offer customized packages to fit your budget. Would you like to discuss your specific requirements so we can provide a detailed quote?"
+
+  utter_Timeline_Inquiry:
+    - text: "The timeline depends on the specific services and your goals. For SEO, it might take a few months to see significant results, while PPC campaigns can start showing results almost immediately. Would you like more details on timelines for a particular service?"
+
+  utter_Support_Inquiry:
+    - text: "Our support team is here to help. You can contact us via email, phone, or live chat. Would you like to be connected with a support agent now?"
+
+  utter_Service_Escalation:
+    - text: "I'll connect you with one of our human agents right away. Please hold on for a moment."
+
+  utter_Custom_Request:
+    - text: "We specialize in creating customized marketing strategies tailored to your specific needs. Let's discuss your requirements in detail. Would you like to schedule a consultation?"
+
+  utter_General_Farewell:
+    - text: "You're welcome! If you have any more questions, feel free to ask. Have a great day!"
+
+  utter_Default_Fallback_Intent:
+    - text: "I'm sorry, I didn't understand that. Could you please rephrase your question or ask something else?"
+
+actions:
+  - utter_General_Inquiry
+  - utter_SEO_Services
+  - utter_Content_Marketing_Services
+  - utter_PPC_Services
+  - utter_Social_Media_Management
+  - utter_Pricing_Inquiry
+  - utter_Timeline_Inquiry
+  - utter_Support_Inquiry
+  - utter_Service_Escalation
+  - utter_Custom_Request
+  - utter_General_Farewell
+  - utter_Default_Fallback_Intent
